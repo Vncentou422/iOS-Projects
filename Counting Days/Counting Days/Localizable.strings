@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  Counting Days
+
+  Created by Vincent Ou on 11/2/18.
+  Copyright © 2018 Vincent Ou. All rights reserved.
+*/
+
+"str_cancel"                            = "Cancel";
+"str_reset"                            = "Are you sure you want to reset?";
+"str_warning"                       ="Warning";
+"str_yes"                       = "OK";
+"str_outofOrder"                   = "Please select the dates in order";
+

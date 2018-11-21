@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB4045A5218D226700AD8BA0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB4045A4218D226700AD8BA0 /* Localizable.strings */; };
+		DB4045A7218D499900AD8BA0 /* EndingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4045A6218D499900AD8BA0 /* EndingViewController.swift */; };
+		DBEB6D90218CF8DE00A6EAC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB6D8F218CF8DE00A6EAC8 /* AppDelegate.swift */; };
+		DBEB6D95218CF8DE00A6EAC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBEB6D93218CF8DE00A6EAC8 /* Main.storyboard */; };
+		DBEB6D97218CF8DF00A6EAC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEB6D96218CF8DF00A6EAC8 /* Assets.xcassets */; };
+		DBEB6D9A218CF8DF00A6EAC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBEB6D98218CF8DF00A6EAC8 /* LaunchScreen.storyboard */; };
+		DBEB6DA2218D090900A6EAC8 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB6DA1218D090900A6EAC8 /* DayView.swift */; };
+		DBEB6DA4218D0CA500A6EAC8 /* Holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB6DA3218D0CA500A6EAC8 /* Holiday.swift */; };
+		DBEB6DA8218D144100A6EAC8 /* HolidayFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB6DA7218D144100A6EAC8 /* HolidayFunction.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB4045A4218D226700AD8BA0 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		DB4045A6218D499900AD8BA0 /* EndingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndingViewController.swift; sourceTree = "<group>"; };
+		DBEB6D8C218CF8DE00A6EAC8 /* Counting Days.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Counting Days.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEB6D8F218CF8DE00A6EAC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBEB6D94218CF8DE00A6EAC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBEB6D96218CF8DF00A6EAC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBEB6D99218CF8DF00A6EAC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBEB6D9B218CF8DF00A6EAC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBEB6DA1218D090900A6EAC8 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		DBEB6DA3218D0CA500A6EAC8 /* Holiday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holiday.swift; sourceTree = "<group>"; };
+		DBEB6DA7218D144100A6EAC8 /* HolidayFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayFunction.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBEB6D89218CF8DE00A6EAC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBEB6D83218CF8DE00A6EAC8 = {
+			isa = PBXGroup;
+			children = (
+				DBEB6D8E218CF8DE00A6EAC8 /* Counting Days */,
+				DBEB6D8D218CF8DE00A6EAC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBEB6D8D218CF8DE00A6EAC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBEB6D8C218CF8DE00A6EAC8 /* Counting Days.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBEB6D8E218CF8DE00A6EAC8 /* Counting Days */ = {
+			isa = PBXGroup;
+			children = (
+				DBEB6D8F218CF8DE00A6EAC8 /* AppDelegate.swift */,
+				DB4045A4218D226700AD8BA0 /* Localizable.strings */,
+				DBEB6DA3218D0CA500A6EAC8 /* Holiday.swift */,
+				DB4045A6218D499900AD8BA0 /* EndingViewController.swift */,
+				DBEB6DA1218D090900A6EAC8 /* DayView.swift */,
+				DBEB6DA7218D144100A6EAC8 /* HolidayFunction.swift */,
+				DBEB6D93218CF8DE00A6EAC8 /* Main.storyboard */,
+				DBEB6D96218CF8DF00A6EAC8 /* Assets.xcassets */,
+				DBEB6D98218CF8DF00A6EAC8 /* LaunchScreen.storyboard */,
+				DBEB6D9B218CF8DF00A6EAC8 /* Info.plist */,
+			);
+			path = "Counting Days";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBEB6D8B218CF8DE00A6EAC8 /* Counting Days */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBEB6D9E218CF8DF00A6EAC8 /* Build configuration list for PBXNativeTarget "Counting Days" */;
+			buildPhases = (
+				DBEB6D88218CF8DE00A6EAC8 /* Sources */,
+				DBEB6D89218CF8DE00A6EAC8 /* Frameworks */,
+				DBEB6D8A218CF8DE00A6EAC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Counting Days";
+			productName = "Counting Days";
+			productReference = DBEB6D8C218CF8DE00A6EAC8 /* Counting Days.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBEB6D84218CF8DE00A6EAC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Vincent Ou";
+				TargetAttributes = {
+					DBEB6D8B218CF8DE00A6EAC8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DBEB6D87218CF8DE00A6EAC8 /* Build configuration list for PBXProject "Counting Days" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBEB6D83218CF8DE00A6EAC8;
+			productRefGroup = DBEB6D8D218CF8DE00A6EAC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBEB6D8B218CF8DE00A6EAC8 /* Counting Days */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBEB6D8A218CF8DE00A6EAC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEB6D9A218CF8DF00A6EAC8 /* LaunchScreen.storyboard in Resources */,
+				DB4045A5218D226700AD8BA0 /* Localizable.strings in Resources */,
+				DBEB6D97218CF8DF00A6EAC8 /* Assets.xcassets in Resources */,
+				DBEB6D95218CF8DE00A6EAC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBEB6D88218CF8DE00A6EAC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4045A7218D499900AD8BA0 /* EndingViewController.swift in Sources */,
+				DBEB6DA8218D144100A6EAC8 /* HolidayFunction.swift in Sources */,
+				DBEB6DA2218D090900A6EAC8 /* DayView.swift in Sources */,
+				DBEB6DA4218D0CA500A6EAC8 /* Holiday.swift in Sources */,
+				DBEB6D90218CF8DE00A6EAC8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBEB6D93218CF8DE00A6EAC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBEB6D94218CF8DE00A6EAC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBEB6D98218CF8DF00A6EAC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBEB6D99218CF8DF00A6EAC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBEB6D9C218CF8DF00A6EAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBEB6D9D218CF8DF00A6EAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBEB6D9F218CF8DF00A6EAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Counting Days/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincentou.Counting-Days";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DBEB6DA0218CF8DF00A6EAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Counting Days/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vincentou.Counting-Days";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBEB6D87218CF8DE00A6EAC8 /* Build configuration list for PBXProject "Counting Days" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEB6D9C218CF8DF00A6EAC8 /* Debug */,
+				DBEB6D9D218CF8DF00A6EAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBEB6D9E218CF8DF00A6EAC8 /* Build configuration list for PBXNativeTarget "Counting Days" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEB6D9F218CF8DF00A6EAC8 /* Debug */,
+				DBEB6DA0218CF8DF00A6EAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBEB6D84218CF8DE00A6EAC8 /* Project object */;
+}
