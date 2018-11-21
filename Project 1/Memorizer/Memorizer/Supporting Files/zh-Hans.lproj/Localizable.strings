@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Memorizer
+
+  Created by Vincent Ou on 10/3/18.
+  Copyright © 2018 Vincent Ou. All rights reserved.
+*/
+
+"repeatThesentence" = "重复序列";
+"gameOver" = "游戏结束";

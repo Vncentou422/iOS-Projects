@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Memorizer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="OF9-iR-fhB" userLabel="Main Stack View">
+                                <rect key="frame" x="0.0" y="54" width="414" height="628"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="wWl-n4-cy5" userLabel="Tile Stack View">
+                                        <rect key="frame" x="7" y="0.0" width="400" height="310"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="CnY-zO-HDk">
+                                                <rect key="frame" x="0.0" y="0.0" width="196" height="310"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yzS-Hl-Agc" customClass="Button" customModule="Memorizer" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="196" height="155"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="tileTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A2P-fk-gud"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9rH-ln-LEo" customClass="Button" customModule="Memorizer" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="163" width="196" height="147"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="tileTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nCM-aL-EV9"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="1Kj-RU-0D0">
+                                                <rect key="frame" x="204" y="0.0" width="196" height="310"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8c-lC-UUT" customClass="Button" customModule="Memorizer" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="196" height="155"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="tileTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cWR-Fn-pGF"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V01-dl-obs" customClass="Button" customModule="Memorizer" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="163" width="196" height="147"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="tileTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tad-9b-IvT"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bTr-vv-GR4">
+                                        <rect key="frame" x="8" y="318" width="398" height="310"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="zFz-YT-9sp">
+                                                <rect key="frame" x="12" y="12" width="374" height="38.333333333333336"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Level:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CaP-hQ-vhq">
+                                                        <rect key="frame" x="0.0" y="0.0" width="171" height="38.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
+                                                        <color key="textColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="999" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8WT-uf-ARl">
+                                                        <rect key="frame" x="203" y="0.0" width="171" height="38.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
+                                                        <color key="textColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Repeat The Sequence" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V37-wM-Njm">
+                                                <rect key="frame" x="52" y="137" width="294" height="37"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restart?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dtN-pb-sLE">
+                                                <rect key="frame" x="144" y="182" width="110" height="37"/>
+                                                <gestureRecognizers/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="5ac-Lg-jSt" appends="YES" id="KCj-qg-Yof"/>
+                                                </connections>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <constraints>
+                                            <constraint firstItem="zFz-YT-9sp" firstAttribute="top" secondItem="bTr-vv-GR4" secondAttribute="top" constant="12" id="8xL-6l-ChW"/>
+                                            <constraint firstItem="dtN-pb-sLE" firstAttribute="top" secondItem="V37-wM-Njm" secondAttribute="bottom" constant="8" id="9hg-hh-T70"/>
+                                            <constraint firstAttribute="trailing" secondItem="zFz-YT-9sp" secondAttribute="trailing" constant="12" id="PBl-sV-mvO"/>
+                                            <constraint firstItem="V37-wM-Njm" firstAttribute="centerX" secondItem="bTr-vv-GR4" secondAttribute="centerX" id="a3b-kY-qJl"/>
+                                            <constraint firstItem="zFz-YT-9sp" firstAttribute="leading" secondItem="bTr-vv-GR4" secondAttribute="leading" constant="12" id="aMl-ji-JdM"/>
+                                            <constraint firstItem="dtN-pb-sLE" firstAttribute="centerX" secondItem="V37-wM-Njm" secondAttribute="centerX" id="f3g-jp-09H"/>
+                                            <constraint firstItem="V37-wM-Njm" firstAttribute="centerY" secondItem="bTr-vv-GR4" secondAttribute="centerY" id="od5-2G-45w"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="5no-N5-Hmr" firstAttribute="trailing" secondItem="bTr-vv-GR4" secondAttribute="trailing" constant="8" id="1eJ-l1-J3J"/>
+                                    <constraint firstItem="bTr-vv-GR4" firstAttribute="top" secondItem="wWl-n4-cy5" secondAttribute="bottom" constant="8" id="7bI-kc-trO"/>
+                                    <constraint firstItem="bTr-vv-GR4" firstAttribute="leading" secondItem="5no-N5-Hmr" secondAttribute="leading" constant="8" id="Eml-CG-sz8"/>
+                                    <constraint firstItem="wWl-n4-cy5" firstAttribute="leading" secondItem="5no-N5-Hmr" secondAttribute="leading" constant="7" id="RhB-0c-Ktn"/>
+                                    <constraint firstItem="bTr-vv-GR4" firstAttribute="bottom" secondItem="5no-N5-Hmr" secondAttribute="bottom" id="dVU-v1-Xzd"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="5no-N5-Hmr"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OF9-iR-fhB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3Gq-ka-aqg"/>
+                            <constraint firstItem="OF9-iR-fhB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="34" id="MkM-rR-0Ed"/>
+                            <constraint firstItem="OF9-iR-fhB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Y9D-c9-4kg"/>
+                            <constraint firstItem="OF9-iR-fhB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="azN-wH-aj8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OF9-iR-fhB" secondAttribute="trailing" id="nHZ-sH-RGl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="levelDescLabel" destination="CaP-hQ-vhq" id="8tk-hu-Ksh"/>
+                        <outlet property="levelLabel" destination="8WT-uf-ARl" id="TlQ-QM-Sa9"/>
+                        <outlet property="restart" destination="dtN-pb-sLE" id="c3h-92-oUK"/>
+                        <outlet property="textLabel" destination="V37-wM-Njm" id="b2H-24-xhd"/>
+                        <outletCollection property="tilearray" destination="yzS-Hl-Agc" collectionClass="NSMutableArray" id="gb7-iH-2Q3"/>
+                        <outletCollection property="tilearray" destination="9rH-ln-LEo" collectionClass="NSMutableArray" id="8UK-uh-ENM"/>
+                        <outletCollection property="tilearray" destination="a8c-lC-UUT" collectionClass="NSMutableArray" id="l2z-M5-T4g"/>
+                        <outletCollection property="tilearray" destination="V01-dl-obs" collectionClass="NSMutableArray" id="pET-an-KvV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="5ac-Lg-jSt">
+                    <connections>
+                        <action selector="restartTappedWithRecognizer:" destination="BYZ-38-t0r" id="SEG-bQ-MMx"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+</document>
